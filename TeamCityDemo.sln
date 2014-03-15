@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCityDemo", "TeamCityDemo\TeamCityDemo.csproj", "{B5366DD6-F592-4421-9399-318047A0008D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamCityDemo.Tests", "TeamCityDemo.Tests\TeamCityDemo.Tests.csproj", "{D28C956F-ECF1-461F-869B-D9C66DF07CAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5366DD6-F592-4421-9399-318047A0008D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5366DD6-F592-4421-9399-318047A0008D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5366DD6-F592-4421-9399-318047A0008D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5366DD6-F592-4421-9399-318047A0008D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D28C956F-ECF1-461F-869B-D9C66DF07CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D28C956F-ECF1-461F-869B-D9C66DF07CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D28C956F-ECF1-461F-869B-D9C66DF07CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D28C956F-ECF1-461F-869B-D9C66DF07CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

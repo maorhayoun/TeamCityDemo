@@ -18,7 +18,7 @@ namespace TeamCityDemo
              //   throw new InvalidOperationException("n should be greater than zero");
              return false;
 
-            Thread.Sleep(1000);
+            //Thread.Sleep(1000);
 
             for (var i = 0; i < n; i++)
             {

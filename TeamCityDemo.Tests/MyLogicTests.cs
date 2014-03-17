@@ -18,7 +18,7 @@ namespace TeamCityDemo.Tests
         }
 
         [TestMethod]
-        [ExpectedException(typeof(InvalidOperationException))]
+        //[ExpectedException(typeof(InvalidOperationException))]
         public void PrintNTimes_WhenNArgumentIsNegative_ThrowInvalidOperationException()
         {
             var logic = new MyLogic();
@@ -26,7 +26,7 @@ namespace TeamCityDemo.Tests
             string input = "test_value";
             int n = -1;
 
-            logic.PrintNTimes(input, n);
+            Assert.IsFalse(logic.PrintNTimes(input, n));
 
         }
 

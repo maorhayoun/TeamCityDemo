@@ -14,8 +14,8 @@ namespace TeamCityDemo
                 throw new ArgumentNullException("input");
 
             if (n < 0)
-                throw new InvalidOperationException("n should be greater than zero");
-            // return false;
+             //   throw new InvalidOperationException("n should be greater than zero");
+             return false;
 
             for (var i = 0; i < n; i++)
             {

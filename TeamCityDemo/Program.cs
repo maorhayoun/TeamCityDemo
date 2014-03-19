@@ -10,7 +10,7 @@ namespace TeamCityDemo
     {
         static void Main(string[] args)
         {
-            MyLogic logic = new MyLogic();
+           // MyLogic logic = new MyLogic();
         }
     }
 }
